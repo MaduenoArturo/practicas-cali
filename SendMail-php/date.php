@@ -19,9 +19,9 @@ if(date(strtotime($date)) == 6 || date(strtotime($date)) == 0) {
             $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      
             $mail->isSMTP();                                            
             $mail->Host       = 'smtp.gmail.com';                     
-            $mail->SMTPAuth   = true;                                   
-            $mail->Username   = 'maduenomorales@gmail.com';                     
-            $mail->Password   = 'gjsw muiu wrsb vppj';                               
+            $mail->SMTPAuth   = 'true'
+            $mail->Username   = '';                     
+            $mail->Password   = '';                               
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;           
             $mail->Port       = 587;                                    
         
