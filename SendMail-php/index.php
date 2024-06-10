@@ -33,8 +33,8 @@ if (mysqli_num_rows($result) > 0) {
                 $mail->isSMTP();                                            
                 $mail->Host       = 'smtp.gmail.com';                     
                 $mail->SMTPAuth   = true;                                   
-                $mail->Username   = 'maduenomorales@gmail.com';                     
-                $mail->Password   = 'gjsw muiu wrsb vppj';                               
+                $mail->Username   = '';                     
+                $mail->Password   = '';                               
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;           
                 $mail->Port       = 587;                                    
             
